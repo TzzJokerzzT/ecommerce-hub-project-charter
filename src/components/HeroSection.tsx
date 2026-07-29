@@ -14,9 +14,11 @@ export default function HeroSection() {
             para transformar el futuro digital de las PyMEs.
           </p>
           <div className="flex gap-4">
-            <button className="bg-white text-[#003f87] px-8 py-3 rounded font-bold hover:bg-[#f7f9fb] transition-all">
-              Ver documentación completa
-            </button>
+            <a href="https://stitch.withgoogle.com/projects/11241913599048100592" target="_blanck" rel="noopener noreferrer">
+              <button className="bg-white text-[#003f87] px-8 py-3 rounded font-bold hover:bg-[#c9c1bf] transition-all">
+                Ver diseño de la app
+              </button>
+            </a>
           </div>
         </div>
         <div className="hidden md:block">
