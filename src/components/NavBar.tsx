@@ -14,7 +14,7 @@ const menuVariants = {
     opacity: 0,
     scale: 0.95,
     y: -8,
-    transition: { duration: 0.15, ease: "easeIn" },
+    transition: { duration: 0.15, ease: "easeIn" as const },
   },
   visible: {
     opacity: 1,
@@ -22,7 +22,7 @@ const menuVariants = {
     y: 0,
     transition: {
       duration: 0.2,
-      ease: [0.25, 0.1, 0.25, 1],
+      ease: [0.25, 0.1, 0.25, 1] as const,
       staggerChildren: 0.05,
       delayChildren: 0.05,
     },
@@ -31,7 +31,7 @@ const menuVariants = {
     opacity: 0,
     scale: 0.95,
     y: -8,
-    transition: { duration: 0.15, ease: "easeIn" },
+    transition: { duration: 0.15, ease: "easeIn" as const },
   },
 };
 

@@ -43,7 +43,7 @@ export default function CierreSection() {
           Post-Mortem Anticipado &amp; Cierre
         </h3>
         <div className="grid md:grid-cols-3 gap-6">
-          {items.map((item, idx) => {
+          {items.map((item) => {
             const IconComponent = iconMap[item.icon]
 
             return (
