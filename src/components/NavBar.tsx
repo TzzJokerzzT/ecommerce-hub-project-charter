@@ -103,7 +103,7 @@ export default function NavBar() {
               className="bg-[#0056b3] text-white px-4 py-2 rounded-lg font-bold hover:opacity-90 transition-all flex items-center gap-2 text-[14px] cursor-pointer"
             >
               <Download size={16} />
-              Download PDF
+              Descargar Archivos
               <motion.span
                 animate={{ rotate: menuOpen ? 180 : 0 }}
                 transition={{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }}
